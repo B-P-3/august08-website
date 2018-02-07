@@ -1,0 +1,318 @@
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video{font-size:100%;font:inherit;padding:0;border:0;margin:0;vertical-align:baseline}body{line-height:1}ol,ul{list-style:none}blockquote,q{quotes:none}blockquote:before,blockquote:after,q:before,q:after{content:'';content:none}table{border-collapse:collapse;border-spacing:0}article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}.clear{clear:both}
+.sticky{}.bypostauthor{}.wp-caption{}.wp-caption-text{}.gallery-caption{}.alignright{}.alignleft{}.aligncenter{}
+
+textarea:focus, input:focus{outline: none;}
+*:focus {outline: none;}
+@font-face { font-family: 'nb-international';
+src:url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/1353856/DOTMATRI.woff');}
+
+@font-face { font-family: 'ES';
+  src:url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/1353856/EurostileNextLTPro-BoldExt.otf');}
+
+@font-face { font-family: 'akkurat';
+  src:url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/1353856/EurostileNextLTPro-BoldExt.otf');}
+.ticker__viewport {
+  font-family: 'nb-international';
+  color: #35404c;
+  font-size: 6px;
+	position: absolute;
+  overflow: hidden;
+  margin-top: -62px;
+   display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.ticker__list {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.ticker__item {
+  display: inline-block;
+  white-space: nowrap;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+html { background: url('https://static1.squarespace.com/static/591bca649f7456ad1a6536d3/595b67179de4bb1a96de14c3/5a7a054e71c10b12765528aa/1517946226467/AUGUST.gif?format=2500w');
+  background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+  overflow: scroll;
+}
+
+header .logo {
+	max-width: 110px;
+  margin-left: 27px;
+  margin-top: 3px;
+}
+body {
+  color: #35404c;
+	width: 100%;
+	font-family: 'nb-international';
+  text-transform: uppercase;
+	-webkit-font-smoothing: antialiased;
+	line-height: 1.1;
+  animation: flicker 0.0001s infinite;
+  overflow: scroll;
+}
+
+.wrapper {
+	width: 100vw;
+	height: 100vh;
+	float: left;
+	box-sizing: border-box;
+	position: relative;
+}
+
+.infoHeader { font-family: 'ES';}
+
+.byName {
+  display: none;
+    color: #35404c;
+    font-size: 8px!important;
+    font-family: 'ES';
+}
+
+h1 {color: #35404c;}
+
+.title h1 {
+  font-color: #35404c;
+	font-size: 10px;
+  margin-left: 20px;
+ 
+}
+
+.vision {
+	width: 100%;
+	height: 100vh;
+	position: relative;
+	overflow: scroll;
+}
+
+.stage {
+	width: 110%;
+  height: 110%;    
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.overlay {
+  margin-top: 20px;
+	width: 100%;
+  height: 120vh;
+  position: relative;
+	background-repeat: repeat;
+	background-position: center;
+}
+
+.overlay container { margin-bottom: 50px; 
+position: relative;}
+.overlay .positionals {
+	width: 25%;
+	margin: 0 auto;
+	position: absolute;
+	top: 150px;
+	left: 10px;
+	text-align: left;
+}
+.overlay .positionals p {animation: flicker 0.0001s infinite; color: #35404c;
+  font-size: 10px;}
+
+.overlay .model {
+	width: 40%;
+	position: absolute;
+	top: 60px;
+	left: 30px;
+}
+.overlay .model p {animation: flicker 0.0001s infinite; color: #35404c;
+  font-size: 10px;}
+
+.overlay .left1 {
+	width: 70%;
+	position: inherit;
+	top: 25px;
+	left: 30px;
+}
+.overlay .left {
+	width: 70%;
+	position: absolute;
+	top: 15px;
+	left: 30px;
+}
+
+.overlay .right {
+	width: 90%;
+	position: absolute;
+	top: 50px;
+	right: 10px;
+	text-align: right;
+}
+#center {overflow: scroll;
+  -webkit-overflow-scrolling: touch;}
+.center2 {margin-top: 240px;
+overflow: scroll;
+  -webkit-overflow-scrolling: touch;}
+.right1 {
+	position: absolute;
+	top: 50px;
+	right: 5px;
+	text-align: right;
+}
+.overlay p {
+  animation: flicker 0.0001s infinite;
+	font-size: 10px;
+	color: #35404c;
+	margin: 0 auto;	
+}
+.overlay .center {
+  width: 90%;
+	position: absolute;
+	text-align: right;
+	text-align: center;
+}
+.overlay .center p {font-famiy: 'es';
+font-size: 20px;}
+.overlay .center p span {opacity: 1;}
+span.letter1 {
+	-webkit-animation: letterone 1s infinite;
+  animation: letterone 1s infinite;
+}
+span.letter2 {
+	-webkit-animation: lettertwo 1s infinite;
+  animation: lettertwo 1s infinite;
+}
+span.letter3 {
+	-webkit-animation: letterthree 1s infinite;
+  animation: letterthree 1s infinite;
+}
+span.letter4 {
+	-webkit-animation: letterfour 1s infinite;
+  animation: letterfour 1s infinite;
+}
+span.letter5 {
+	-webkit-animation: letterfive 1s infinite;
+  animation: letterfive 1s infinite;
+}
+span.letter6 {
+  -webkit-animation: lettersix 0.75s infinite;
+  animation: lettersix 0.75s infinite;
+}
+@keyframes flick {
+    50% {
+        left: 2px;
+    }
+    51% {
+        left: 0;
+    }
+}
+
+@-webkit-keyframes letterone {80% {opacity: 0;}}
+@keyframes letterone {80% {opacity: 0;}}
+
+@-webkit-keyframes lettertwo {85% {opacity: 0;}}
+@keyframes lettertwo {85% {opacity: 0;}}
+
+@-webkit-keyframes letterthree {90% {opacity: 0;}}
+@keyframes letterthree {90% {opacity: 0;}}
+
+@-webkit-keyframes letterfour {95% {opacity: 0;}}
+@keyframes letterfour {95% {opacity: 0;}}
+
+@-webkit-keyframes letterfive {100% {opacity: 0;}}
+@keyframes letterfive {100% {opacity: 0;}}
+
+@-webkit-keyframes lettersix {100% {opacity: 0;}}
+@keyframes lettersix {100% {opacity: 0;}}
+
+
+p.dimension1,
+p.dimension2,
+p.dimension3,
+p.dimension4,
+p.dimension5 {opacity: 0;}
+
+p.dimension1.show,
+p.dimension2.show,
+p.dimension3.show,
+p.dimension4.show,
+p.dimension5.show {opacity: 1;}
+
+p.dimension5.show {
+	-webkit-animation: fit 1s infinite;
+  animation: fit 1s infinite;
+}
+footer {
+	color: #35404c;
+	position: absolute;
+	width: 100%;
+  margin-bottom: -50px;
+	font-size: 8px;
+  padding: 0  8px;
+  align-items: flex-end;
+}
+body {
+    overflow-x: hidden !important;
+}
+.container {
+    max-width: 100% !important;
+    overflow-x: hidden !important;
+}
+
+@-webkit-keyframes fit {100% {opacity: 0;}}
+@keyframes fit {100% {opacity: 0;}}
+
+
+
+
+/* 
+----------
+BELOW 1400
+----------
+*/
+@media screen and (max-width: 1399px) {
+
+  .overlay p {overflow-x: hidden !important;font-size: 9px;}
+  body {overflow-x: hidden !important;}
+  html {overflow-x: hidden !important;}
+  .container {
+        max-width: 100% !important;
+        overflow-x: hidden !important;
+    }
+}
+
+/* 
+----------
+BELOW 1000
+----------
+*/
+@media screen and (max-width: 999px) {
+  
+  .title h1 {overflow-x: hidden !important;
+    font-size: 9px;}
+  .overlay p {overflow-x: hidden !important;
+    font-size: 9px;}
+  .container {
+        max-width: 100% !important;
+        overflow-x: hidden !important;
+    }
+  
+}
+
+@media screen and (max-width: 667px) {
+    body {
+        overflow-x: hidden !important;
+    }
+    .container {
+        max-width: 100% !important;
+        overflow-x: hidden !important;
+    }
+}
